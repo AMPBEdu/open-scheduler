@@ -7,7 +7,7 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.bueidesoftware.os.windows.main.MainController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -55,6 +55,8 @@
             <Font size="18.0" />
           </font>
         </Label>
+            <Button layoutX="531.0" layoutY="340.0" mnemonicParsing="false" onAction="#addStudent" prefWidth="100.0" text="Add Student" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+            <Button layoutX="536.0" layoutY="304.0" mnemonicParsing="false" prefWidth="100.0" text="Add Class" AnchorPane.bottomAnchor="35.0" AnchorPane.rightAnchor="5.0" />
       </children>
     </AnchorPane>
   </children>
